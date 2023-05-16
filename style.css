@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    font-family: cursive;
+}
+.container{
+    height: 700px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    margin-top: 90px;
+    background-color: green;
+}
+#service{
+    background-color:cadetblue;
+}
+#about{
+    background-color: blue;
+}
+#blog{
+    background-color: brown;
+}
+#contact{
+    background-color: darkmagenta;
+}
+.header{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+.header_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+.header_item{
+    margin: 0px 20px;
+}
+.header_link{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+.header_link:hover{
+    font-size: 20px;
+    color: purple;
+}
